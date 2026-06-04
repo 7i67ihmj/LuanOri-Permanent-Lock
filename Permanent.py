@@ -1,5 +1,5 @@
 from flask import Flask, request, Response, jsonify
-import blackboxprotobuf as pb
+import bbpb as pb
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 import requests, random, hashlib, json, os, time, threading
